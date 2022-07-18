@@ -1,0 +1,30 @@
+{
+  "name": "codebin-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeel-pathak/CodeBin-CLI.git"
+  },
+  "bin": {
+    "hello" : "./index.js"  
+  },
+  "author": "Zeel Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeel-pathak/CodeBin-CLI/issues"
+  },
+  "homepage": "https://github.com/zeel-pathak/CodeBin-CLI#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
