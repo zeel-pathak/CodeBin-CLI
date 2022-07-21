@@ -13,7 +13,7 @@
     "url": "git+https://github.com/zeel-pathak/CodeBin-CLI.git"
   },
   "bin": {
-    "cbin" : "./index.js"  
+    "cbin": "./index.js"
   },
   "author": "Zeel Pathak",
   "license": "MIT",
