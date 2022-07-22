@@ -1,6 +1,8 @@
 import { argv } from 'process';
 import { uploadFile } from '../api/upload.js'
 import { downloadFile } from '../api/download.js'
+import { help } from '../dist/helper.js';
+import { author } from '../dist/author.js';
 
 export let runner = () => {
 
@@ -28,16 +30,29 @@ export let runner = () => {
 
         case "-h":
         
-            console.log("It will be helping the devs")    
+            help()  
             break;
 
         case "help":
         
-            console.log("It will be helping the devs")    
+            help()    
             break;
-                
+        
+        case "-a":
+
+            author()
+            break;
+
+        case "author":
+
+            author()
+            break;
+            
         default:
-            console.log("Wrong flag or expression")
+            console.log(`
+Wrong flag or expression
+
+try-> \u001b[37mcbin help || cbin -h \u001b[0m//for help`)
             break;
     }
 }

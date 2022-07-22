@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/zeel-pathak/CodeBin-CLI#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "loading-cli": "^1.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.18"
