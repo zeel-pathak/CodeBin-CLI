@@ -1,6 +1,6 @@
 {
   "name": "codebin-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -16,7 +16,7 @@
     "cbin": "./index.js",
     "codebin": "./index.js"
   },
-  "keywords" : [
+  "keywords": [
     "codebin",
     "codebin-cli",
     "cli",
