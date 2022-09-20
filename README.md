@@ -59,7 +59,8 @@ Hell Yeah
 
 CodeBin can easily be installed in your networks, and it is all Free and Open Source
 * [ Source Code] -> https://github.com/zeel-pathak/CodeBin-CLI
-* [ Website ] -> https://codebinn.herokuapp.com/
+* [ NPM Package] -> https://www.npmjs.com/package/codebin-cli
+* [ Website ]    -> https://codebinn.herokuapp.com/
 
 ## Future update
 
